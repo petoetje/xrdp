@@ -329,6 +329,9 @@ rdpLoadLayout(int keylayout)
         case 0x0000041D: /* Swedish */
             set.layout = "se";
             break;
+        case 0x00000813: /* Belgian */
+            set.layout = "be";
+            break;
         case 0x00000816: /* Portuguese */
             set.layout = "pt";
             break;
