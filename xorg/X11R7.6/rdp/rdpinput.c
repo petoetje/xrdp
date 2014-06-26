@@ -331,8 +331,6 @@ rdpLoadLayout(int keylayout)
             break;
         case 0x00000813: /* Belgian */
             set.layout = "be";
-	    set.rules = "evdev";
-	    set.model = "pc105";
             break;
         case 0x00000816: /* Portuguese */
             set.layout = "pt";
